@@ -265,10 +265,10 @@ class SENN_Trainer:
                 accuracies_val.append(accuracy)
 
             classification_loss = np.mean(classification_losses_val)
-            robustness_loss = np.mean(robustness_losses_val)
-            concept_loss = np.mean(concept_losses_val)
-            total_loss = np.mean(losses_val)
-            accuracy = np.mean(accuracies_val)
+            robustness_loss     = np.mean(robustness_losses_val)
+            concept_loss        = np.mean(concept_losses_val)
+            total_loss          = np.mean(losses_val)
+            accuracy            = np.mean(accuracies_val)
 
             if validate:
                 # --- Report Training Progress --- #
