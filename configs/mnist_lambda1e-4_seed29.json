@@ -6,7 +6,9 @@
   "parameterizer": "ConvParameterizer",
   "cl_sizes": [1, 10, 20],
   "hidden_sizes": [320, 50],
-  "num_concepts": 5,
+
+  "num_concepts": 5,   
+
   "num_classes": 10,
   "dropout": 0.5,
   "aggregator": "SumAggregator",
